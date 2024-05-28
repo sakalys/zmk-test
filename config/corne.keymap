@@ -11,27 +11,27 @@
 
 / {
     behaviors {
-        r1: r1 {
+        q1: q1 {
             compatible = "zmk,behavior-mod-morph";
-            label = "R1";
+            label = "Q1";
             bindings = <&kp Q>, <&kp NUMBER_1>;
 
             #binding-cells = <0>;
             mods = <(MOD_RGUI)>;
         };
 
-        r2: r2 {
+        w2: w2 {
             compatible = "zmk,behavior-mod-morph";
-            label = "R2";
+            label = "W2";
             bindings = <&kp W>, <&kp NUMBER_2>;
 
             #binding-cells = <0>;
             mods = <(MOD_RGUI)>;
         };
 
-        r3: r3 {
+        e3: e3 {
             compatible = "zmk,behavior-mod-morph";
-            label = "R3";
+            label = "E3";
             bindings = <&kp E>, <&kp NUMBER_3>;
 
             #binding-cells = <0>;
@@ -47,54 +47,54 @@
             mods = <(MOD_RGUI)>;
         };
 
-        r5: r5 {
+        t5: t5 {
             compatible = "zmk,behavior-mod-morph";
-            label = "R5";
+            label = "T5";
             bindings = <&kp T>, <&kp NUMBER_5>;
 
             #binding-cells = <0>;
             mods = <(MOD_RGUI)>;
         };
 
-        r6: r6 {
+        y6: y6 {
             compatible = "zmk,behavior-mod-morph";
-            label = "R6";
+            label = "Y6";
             bindings = <&kp Y>, <&kp NUMBER_6>;
 
             #binding-cells = <0>;
             mods = <(MOD_RGUI)>;
         };
 
-        r8: r8 {
+        i8: i8 {
             compatible = "zmk,behavior-mod-morph";
-            label = "R8";
+            label = "I8";
             bindings = <&kp I>, <&kp N8>;
 
             #binding-cells = <0>;
             mods = <(MOD_RGUI)>;
         };
 
-        r7: r7 {
+        u7: u7 {
             compatible = "zmk,behavior-mod-morph";
-            label = "R7";
+            label = "U7";
             bindings = <&kp U>, <&kp NUMBER_7>;
 
             #binding-cells = <0>;
             mods = <(MOD_RGUI)>;
         };
 
-        r9: r9 {
+        o9: o9 {
             compatible = "zmk,behavior-mod-morph";
-            label = "R9";
+            label = "O9";
             bindings = <&kp O>, <&kp N9>;
 
             #binding-cells = <0>;
             mods = <(MOD_RGUI)>;
         };
 
-        r0: r0 {
+        p0: p0 {
             compatible = "zmk,behavior-mod-morph";
-            label = "R0";
+            label = "P0";
             bindings = <&kp P>, <&kp N0>;
 
             #binding-cells = <0>;
