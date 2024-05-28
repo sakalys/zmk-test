@@ -14,19 +14,19 @@
         q1: q1 {
             compatible = "zmk,behavior-mod-morph";
             label = "Q1";
-            bindings = <&kp Q>, <&kp NUMBER_1>;
+            bindings = <&kp Q>, <&kp LG(NUMBER_1)>;
 
             #binding-cells = <0>;
-            mods = <(MOD_RGUI)>;
+            mods = <(MOD_LGUI)>;
         };
 
         w2: w2 {
             compatible = "zmk,behavior-mod-morph";
             label = "W2";
-            bindings = <&kp W>, <&kp NUMBER_2>;
+            bindings = <&kp W>, <&kp LG(NUMBER_2)>;
 
             #binding-cells = <0>;
-            mods = <(MOD_RGUI)>;
+            mods = <(MOD_LGUI)>;
         };
 
         e3: e3 {
