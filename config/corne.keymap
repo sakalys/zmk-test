@@ -19,6 +19,87 @@
             #binding-cells = <0>;
             mods = <(MOD_RGUI)>;
         };
+
+        r2: r2 {
+            compatible = "zmk,behavior-mod-morph";
+            label = "R2";
+            bindings = <&kp W>, <&kp NUMBER_2>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_RGUI)>;
+        };
+
+        r3: r3 {
+            compatible = "zmk,behavior-mod-morph";
+            label = "R3";
+            bindings = <&kp E>, <&kp NUMBER_3>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_RGUI)>;
+        };
+
+        r4: r4 {
+            compatible = "zmk,behavior-mod-morph";
+            label = "R4";
+            bindings = <&kp R>, <&kp NUMBER_4>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_RGUI)>;
+        };
+
+        r5: r5 {
+            compatible = "zmk,behavior-mod-morph";
+            label = "R5";
+            bindings = <&kp T>, <&kp NUMBER_5>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_RGUI)>;
+        };
+
+        r6: r6 {
+            compatible = "zmk,behavior-mod-morph";
+            label = "R6";
+            bindings = <&kp Y>, <&kp NUMBER_6>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_RGUI)>;
+        };
+
+        r8: r8 {
+            compatible = "zmk,behavior-mod-morph";
+            label = "R8";
+            bindings = <&kp I>, <&kp N8>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_RGUI)>;
+        };
+
+        r7: r7 {
+            compatible = "zmk,behavior-mod-morph";
+            label = "R7";
+            bindings = <&kp U>, <&kp NUMBER_7>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_RGUI)>;
+        };
+
+        r9: r9 {
+            compatible = "zmk,behavior-mod-morph";
+            label = "R9";
+            bindings = <&kp O>, <&kp N9>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_RGUI)>;
+        };
+
+        r0: r0 {
+            compatible = "zmk,behavior-mod-morph";
+            label = "R0";
+            bindings = <&kp P>, <&kp N0>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_RGUI)>;
+        };
     };
 
     keymap {
