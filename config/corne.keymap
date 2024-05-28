@@ -116,7 +116,7 @@
 &kp TAB    &kp Q  &kp W  &kp E     &kp R      &kp T    &kp Y  &kp U      &kp I      &kp O    &kp P     &kp BSPC
 &kp LCTRL  &kp A  &kp S  &kp D     &kp F      &kp G    &kp H  &kp J      &kp K      &kp L    &kp SEMI  &kp SQT
 &kp LSHFT  &kp Z  &kp X  &kp C     &kp V      &kp B    &kp N  &kp M      &kp COMMA  &kp DOT  &kp FSLH  &kp RGUI
-                         &kp LGUI  &kp SPACE  &mo 1    &mo 2  &kp ENTER  &kp RALT
+                         &kp LGUI  &kp SPACE  &mo 1    &mo 2  &kp ENTER  &mo 3
             >;
         };
 
@@ -128,9 +128,9 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp ESCAPE  &trans  &kp N7  &kp N8        &kp N9     &trans          &kp N6    &kp N7     &kp N8    &kp N9     &kp N0  &kp DEL
-&kp LCTRL   &trans  &kp N4  &kp N5        &kp N6     &bt BT_SEL 4    &kp LEFT  &kp DOWN   &kp UP    &kp RIGHT  &trans  &trans
-&kp LSHFT   &trans  &kp N1  &kp NUMBER_2  &kp N3     &out OUT_BLE    &trans    &trans     &trans    &trans     &trans  &trans
+&kp ESCAPE  &trans  &kp N7  &kp N8        &kp N9     &trans          &trans    &trans     &trans    &trans     &kp LEFT_BRACKET      &kp RIGHT_BRACKET
+&kp LCTRL   &trans  &kp N4  &kp N5        &kp N6     &bt BT_SEL 4    &kp LEFT  &kp DOWN   &kp UP    &kp RIGHT  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&kp LSHFT   &trans  &kp N1  &kp NUMBER_2  &kp N3     &out OUT_BLE    &trans    &trans     &trans    &trans     &trans                &trans
                             &kp N0        &kp SPACE  &trans          &trans    &kp ENTER  &kp RALT
             >;
         };
@@ -152,10 +152,10 @@
 
         layer_3 {
             bindings = <
-&trans      &trans        &trans        &trans        &trans        &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&trans      &trans        &trans        &trans        &out OUT_USB  &out OUT_BLE    &trans  &trans  &trans  &trans  &trans  &trans
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans  &trans  &trans  &trans  &trans  &trans
-                                        &trans        &trans        &trans          &trans  &trans  &trans
+&trans      &trans        &trans        &trans        &trans        &trans          &trans    &trans    &trans  &trans     &trans  &trans
+&trans      &trans        &trans        &trans        &out OUT_USB  &out OUT_BLE    &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans    &trans    &trans  &trans     &trans  &trans
+                                        &trans        &trans        &trans          &trans    &trans    &trans
             >;
         };
     };
