@@ -116,7 +116,7 @@
 &kp TAB    &kp Q  &kp W  &kp E      &kp R      &kp T    &kp Y  &kp U      &kp I      &kp O    &kp P     &kp BSPC
 &mo 3      &kp A  &kp S  &kp D      &kp F      &kp G    &kp H  &kp J      &kp K      &kp L    &kp SEMI  &kp SQT
 &kp LSHFT  &kp Z  &kp X  &kp C      &kp V      &kp B    &kp N  &kp M      &kp COMMA  &kp DOT  &kp FSLH  &kp RGUI
-                         &kp LCTRL  &kp SPACE  &mo 1    &mo 2  &kp ENTER  &mo 3
+                         &kp LCTRL  &kp SPACE  &mo 1    &mo 2  &kp ENTER  &kp RALT
             >;
         };
 
@@ -156,15 +156,6 @@
 &trans      &trans        &trans        &bt BT_CLR    &out OUT_USB  &out OUT_BLE    &kp LEFT    &kp DOWN    &kp UP      &kp RIGHT   &trans      &trans
 &kp LSHIFT  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans      &trans      &trans      &trans      &trans      &trans
                                         &trans        &kp LGUI      &trans          &trans      &trans      &trans
-            >;
-        };
-
-        layer_4 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
