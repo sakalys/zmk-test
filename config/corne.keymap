@@ -10,6 +10,17 @@
 #include <dt-bindings/zmk/outputs.h>
 
 / {
+    behaviors {
+        r1: r1 {
+            compatible = "zmk,behavior-mod-morph";
+            label = "R1";
+            bindings = <&kp Q>, <&kp NUMBER_1>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_RGUI)>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
