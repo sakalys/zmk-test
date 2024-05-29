@@ -152,10 +152,10 @@
 
         layer_3 {
             bindings = <
-&kp ESCAPE  &kp LG(N1)  &kp LG(N2)  &kp LG(N3)  &kp LG(N4)  &kp LG(N5)    &kp LG(N6)    &kp LG(N7)    &kp LG(N8)     &kp LG(N9)      &kp LG(N0)         &kp DEL
-&trans      &trans      &trans      &trans      &trans      &trans        &kp LG(LEFT)  &kp LG(DOWN)  &kp LG(UP)     &kp LG(RIGHT)   &kp LG(SEMICOLON)  &kp LG(BACKSLASH)
-&trans      &trans      &trans      &trans      &trans      &trans        &trans        &trans        &kp LG(COMMA)  &kp LG(PERIOD)  &kp LG(SLASH)      &trans
-                                    &trans      &trans      &trans        &trans        &trans        &trans
+&kp ESCAPE  &kp LG(N1)  &kp LG(N2)  &kp LG(N3)  &kp LG(N4)  &kp LG(N5)    &kp LG(N6)  &kp LG(N7)  &kp LG(N8)     &kp LG(N9)      &kp LG(N0)         &kp DEL
+&trans      &trans      &trans      &trans      &trans      &trans        &kp LG(H)   &kp LG(J)   &kp LG(K)      &kp LG(L)       &kp LG(SEMICOLON)  &kp LG(BACKSLASH)
+&trans      &trans      &trans      &trans      &trans      &trans        &trans      &trans      &kp LG(COMMA)  &kp LG(PERIOD)  &kp LG(SLASH)      &trans
+                                    &trans      &trans      &trans        &trans      &trans      &trans
             >;
         };
 
