@@ -102,6 +102,15 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        Escape {
+            bindings = <&kp ESCAPE>;
+            key-positions = <19 20>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
