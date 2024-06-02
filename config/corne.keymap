@@ -195,7 +195,7 @@
             then-layer = <4>;
         };
 
-        F1-F12 {
+        F1_F12 {
             if-layers = <1 2>;
             then-layer = <5>;
         };
