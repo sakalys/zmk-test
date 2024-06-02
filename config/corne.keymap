@@ -152,7 +152,7 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp ESCAPE  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans         &kp DEL
+&kp ESCAPE  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PIPE       &kp DEL
 &trans      &trans    &trans  &trans    &trans    &kp CARET    &kp LESS_THAN         &kp MINUS              &kp EQUAL         &kp GREATER_THAN   &kp BACKSLASH  &kp GRAVE
 &trans      &trans    &trans  &trans    &trans    &trans       &kp UNDER             &kp PLUS               &kp STAR          &kp AMPERSAND      &kp QUESTION   &kp TILDE
                               &trans    &trans    &trans       &trans                &trans                 &trans
