@@ -154,7 +154,7 @@
             bindings = <
 &kp ESCAPE     &kp EXCL   &kp AT       &kp HASH    &trans  &trans    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH  &trans
 &kp AMPERSAND  &kp CARET  &kp PERCENT  &kp DOLLAR  &trans  &trans    &kp LESS_THAN         &kp MINUS              &kp EQUAL         &kp GREATER_THAN   &trans         &trans
-&trans         &trans     &kp COLON    &trans      &trans  &trans    &kp UNDER             &kp PLUS               &kp STAR          &kp AMPERSAND      &kp QUESTION   &kp TILDE
+&trans         &kp ASTRK  &kp COLON    &trans      &trans  &trans    &kp UNDER             &kp PLUS               &trans            &trans             &trans         &kp TILDE
                                        &trans      &trans  &trans    &trans                &trans                 &trans
             >;
         };
