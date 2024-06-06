@@ -105,9 +105,14 @@
     combos {
         compatible = "zmk,combos";
 
-        Escape {
+        esc-right {
             bindings = <&kp ESCAPE>;
             key-positions = <19 20>;
+        };
+
+        esc-left {
+            bindings = <&kp ESC>;
+            key-positions = <15 16>;
         };
     };
 
