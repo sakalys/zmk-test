@@ -11,7 +11,9 @@
 
 
 &lt {
-    flavor = "hold-preferred";
+    // flavor = "hold-preferred";
+    // flavor = "tap-preferred";
+    tapping-term-ms = <130>;
 };
 
 / {
