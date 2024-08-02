@@ -173,10 +173,10 @@
 
         GUI_numbers {
             bindings = <
-&kp ESCAPE  &kp LG(N1)  &kp LG(N2)  &kp LG(N3)  &kp LG(N4)  &kp LG(N5)    &kp LG(N6)  &kp LG(N7)  &kp LG(N8)  &kp LG(N9)  &kp LG(N0)         &kp DEL
-&trans      &trans      &trans      &trans      &trans      &trans        &kp LEFT    &kp DOWN    &kp UP      &kp RIGHT   &kp LG(BACKSLASH)  &trans
-&trans      &trans      &trans      &trans      &trans      &trans        &kp PG_UP   &kp PG_DN   &kp HOME    &kp END     &trans             &trans
-                                    &trans      &trans      &trans        &trans      &trans      &trans
+&kp ESCAPE  &kp LG(N1)  &kp LG(N2)  &kp LG(N3)  &kp LG(N4)         &kp LG(N5)    &trans     &trans     &trans    &trans     &trans  &kp DEL
+&trans      &kp LG(N6)  &kp LG(N7)  &kp LG(N8)  &kp LG(N9)         &kp LG(N0)    &kp LEFT   &kp DOWN   &kp UP    &kp RIGHT  &trans  &trans
+&trans      &trans      &trans      &trans      &kp LG(BACKSLASH)  &trans        &kp PG_UP  &kp PG_DN  &kp HOME  &kp END    &trans  &trans
+                                    &trans      &trans             &trans        &trans     &trans     &trans
             >;
         };
 
