@@ -127,13 +127,11 @@
         em_dash: em_dash {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings =
-                <&macro_press>,
-                <&kp LC(LA(U))>,
-                <&macro_tap>,
-                <&kp N2 &kp N0 &kp N1 &kp N4>,
-                <&macro_release>,
-                <&kp LA(LC(U))>;
+            bindings
+                = <&macro_press   &kp LC(LA(U))>
+                , <&macro_tap     &kp N2 &kp N0 &kp N1 &kp N4>
+                , <&macro_release &kp LA(LC(U))>
+                ;
 
             label = "EM_DASH";
         };
@@ -141,13 +139,11 @@
         euro_symbol: euro_symbol {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings =
-                <&macro_press>,
-                <&kp LC(LA(U))>,
-                <&macro_tap>,
-                <&kp N2 &kp N0 &kp A &kp C>,
-                <&macro_release>,
-                <&kp LA(LC(U))>;
+            bindings
+                = <&macro_press   &kp LC(LA(U))>
+                , <&macro_tap     &kp N2 &kp N0 &kp A &kp C>
+                , <&macro_release &kp LA(LC(U))>
+                ;
 
             label = "EURO_SYMBOL";
         };
