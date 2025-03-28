@@ -127,14 +127,14 @@
         em_dash: em_dash {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LC(LA(U)) &kp N2 &kp N0 &kp N1 &kp N4 &kp SPACE>;
+            bindings = <&kp LS(LC(U)) &kp N2 &kp N0 &kp N1 &kp N4 &kp SPACE>;
             label = "EM_DASH";
         };
 
         euro_symbol: euro_symbol {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LC(LA(U)) &kp N2 &kp N0 &kp A &kp C &kp SPACE>;
+            bindings = <&kp LC(LS(U)) &kp N2 &kp N0 &kp A &kp C &kp SPACE>;
             label = "EURO_SYMBOL";
         };
     };
