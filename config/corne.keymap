@@ -123,6 +123,22 @@
         };
     };
 
+    macros {
+        em_dash: em_dash {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LC(LA(U))>,
+                <&macro_tap>,
+                <&kp N2 &kp N0 &kp N1 &kp N4>,
+                <&macro_release>,
+                <&kp LA(LC(U))>;
+
+            label = "EM_DASH";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -195,6 +211,15 @@
 &trans  &kp F5  &kp F6   &kp F7   &kp F8   &trans           &trans  &kp F5  &kp F6   &kp F7   &kp F8   &trans
 &trans  &kp F1  &kp F2   &kp F3   &kp F4   &trans           &trans  &kp F1  &kp F3   &kp F3   &kp F4   &trans
                          &trans   &trans   &kp LC(SPACE)    &trans  &trans  &trans
+            >;
+        };
+
+        compose_keys {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &em_dash  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans    &trans  &trans
             >;
         };
     };
