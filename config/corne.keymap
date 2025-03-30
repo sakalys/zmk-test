@@ -128,12 +128,16 @@
             compatible = "zmk,behavior-macro";
             wait-ms = <40>;
             tap-ms = <40>;
-            bindings
-                = <&macro_press   &kp LS(LC(U))>
-                , <&macro_tap     &kp N2 &kp N0 &kp N1 &kp N4>
-                , <&macro_release &kp LS(LC(U))>
-                , <&macro_tap     &kp SPACE>
-                ;
+            bindings =
+                <&macro_press>,
+                <&kp LS(LC(U))>,
+                <&macro_tap>,
+                <&kp N2 &kp N0 &kp N1 &kp N4>,
+                <&macro_release>,
+                <&kp LS(LC(U))>,
+                <&macro_tap>,
+                <&kp SPACE>;
+
             label = "EM_DASH";
         };
 
@@ -222,10 +226,10 @@
 
         compose_keys {
             bindings = <
-&trans  &trans  &trans  &trans        &trans  &trans    &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &euro_symbol  &trans  &trans    &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans        &trans  &trans    &em_dash  &trans  &trans  &trans  &trans  &trans
-                        &trans        &trans  &trans    &trans    &trans  &trans
+&trans  &trans  &trans  &trans        &trans    &trans    &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &euro_symbol  &em_dash  &trans    &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans        &trans    &trans    &em_dash  &trans  &trans  &trans  &trans  &trans
+                        &trans        &trans    &trans    &trans    &trans  &trans
             >;
         };
     };
