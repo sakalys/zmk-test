@@ -126,8 +126,14 @@
     macros {
         em_dash: em_dash {
             compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LS(LC(U)) &kp N2 &kp N0 &kp N1 &kp N4 &kp SPACE>;
+            wait-ms = <40>;
+            tap-ms = <40>;
+            bindings
+                = <&macro_press   &kp LS(LC(U))>
+                , <&macro_tap     &kp N2 &kp N0 &kp N1 &kp N4 &kp>
+                , <&macro_release &kp LS(LC(U))>
+                , <&macro_tap     &kp SPACE>
+                ;
             label = "EM_DASH";
         };
 
