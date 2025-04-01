@@ -129,12 +129,16 @@
             wait-ms = <40>;
             tap-ms = <40>;
             #binding-cells = <0>;
-            bindings
-                = <&macro_press   &kp LS(LC(U))>
-                , <&macro_tap     &kp N2 &kp N0 &kp N1 &kp N4>
-                , <&macro_release &kp LS(LC(U))>
-                , <&macro_tap     &kp SPACE>
-                ;
+            bindings =
+                <&macro_press>,
+                <&kp LS(LC(U))>,
+                <&macro_tap>,
+                <&kp N2 &kp N0 &kp N1 &kp N4>,
+                <&macro_release>,
+                <&kp LS(LC(U))>,
+                <&macro_tap>,
+                <&kp SPACE>;
+
             label = "EM_DASH";
         };
 
@@ -173,7 +177,7 @@
 
             bindings = <
 &trans  &trans  &trans  &trans  &kp PLUS      &kp MINUS    &kp ASTERISK  &kp N7  &kp N8  &kp N9  &trans  &trans
-&trans  &trans  &trans  &trans  &kp KP_DOT    &trans       &kp KP_DOT    &kp N4  &kp N5  &kp N6  &trans  &trans
+&trans  &trans  &trans  &trans  &kp DOT       &trans       &kp DOT       &kp N4  &kp N5  &kp N6  &trans  &trans
 &trans  &trans  &trans  &trans  &kp ASTERISK  &kp SLASH    &kp N0        &kp N1  &kp N2  &kp N3  &trans  &trans
                         &trans  &trans        &trans       &trans        &trans  &trans
             >;
